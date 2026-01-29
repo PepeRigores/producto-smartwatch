@@ -48,5 +48,19 @@ footer{padding:3rem 0;color:var(--muted);background:transparent}
 #carouselHero .carousel-control-prev:hover .carousel-control-prev-icon,
 #carouselHero .carousel-control-next:hover .carousel-control-next-icon{opacity:0.7}
 #carouselHero .carousel-indicators{bottom:-45px}
+
+/* Color Option Selector */
+.color-option{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.color-option:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 114, 206, 0.3) !important;
+}
+.color-option:active,
+.color-option.selected{
+  transform: scale(0.95);
+  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.5) !important;
+}
 #carouselHero .carousel-indicators button{background-color:var(--accent-2);opacity:0.5;border-radius:50%;width:8px;height:8px;transition:opacity 0.3s ease}
 #carouselHero .carousel-indicators button.active{opacity:1}

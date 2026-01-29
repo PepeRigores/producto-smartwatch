@@ -15,8 +15,32 @@ function animateCounters(){
   });
 }
 
+// Selector de colores
+function setupColorSelector(){
+  const colorButtons = document.querySelectorAll('.color-option');
+  
+  colorButtons.forEach((btn, index) => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      // Remover clase selected de todos los botones
+      colorButtons.forEach(b => b.classList.remove('selected'));
+      // Añadir clase selected al botón clicado
+      this.classList.add('selected');
+      // Log para debug (opcional)
+      console.log('Color seleccionado:', this.dataset.color);
+    });
+  });
+  
+  // Seleccionar el primer color por defecto
+  if(colorButtons.length > 0) {
+    colorButtons[0].classList.add('selected');
+  }
+}
+
 // Inicialización DOM
 document.addEventListener('DOMContentLoaded', ()=>{
   animateCounters();
+  setupColorSelector();
   // Placeholders para futuras interacciones: smooth scroll, lazy load, etc.
 });
+

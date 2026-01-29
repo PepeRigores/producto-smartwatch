@@ -2,7 +2,12 @@
 
 Proyecto de sitio estático que presenta el diseño de una página de producto. Incluye HTML, CSS y JavaScript mínimo, además de imágenes de producto en la carpeta `assets/images`.
 
-## Demo
+## Puedes verlo en:
+
+https://peperigores.github.io/producto-smartwatch/ 
+
+## Si no estuviera disponible:
+- Descarga y descomprime el archivo .zip o clona el repositorio.
 - Abre el archivo [index.html](index.html) en tu navegador para ver la página.
 
 ## Características
@@ -27,7 +32,7 @@ Proyecto de sitio estático que presenta el diseño de una página de producto. 
 - Usa herramientas de build si vas a escalar (parcel, vite, etc.).
 
 ## Licencia
-Licencia: MIT (ajusta según prefieras).
+Licencia: MIT
 
 ## Autor
-- Jose Conesa
+- José Conesa Nicolás
