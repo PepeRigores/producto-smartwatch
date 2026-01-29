@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FitCo — Smartwatch de alto rendimiento. Diseño minimalista inspirado en tiendas de producto." />
+    <title>FitCo — Smartwatch</title>
+
+    <!-- Bootstrap 5 (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center gap-3">
+          <div>conesa</div>
+          <div class="muted small">Smartwatch</div>
+          <div class="brand"><i class="fas fa-watch"></i> FitCo Pro</div>
+        </div>
+        <nav class="d-none d-md-flex align-items-center gap-3 small muted">
+          <a href="#features" class="text-decoration-none text-muted">Características</a>
+          <a href="#specs" class="text-decoration-none text-muted">Especificaciones</a>
+          <a href="#reviews" class="text-decoration-none text-muted">Comentarios</a>
+          <a href="#buy" class="btn btn-sm btn-accent">Comprar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+              <div class="hero-card">
+                <h1 class="hero-title outline-soft">FitCo Pro — Smartwatch Multideporte</h1>
+                <p class="hero-sub">Reloj inteligente con pantalla AMOLED 1.3", GPS/GNSS MultiBanda, monitor cardíaco PPG,
+                     80+ modos deportivos y batería 10 días. Certificado 10ATM para natación. 
+                     Conexión rápida  y sencilla con Fitness Tracker App.</p>
+                <div class="d-flex align-items-center gap-3 mt-4">
+                  <button class="btn btn-accent btn-lg">Comprar ahora</button>
+                  <button class="btn btn-outline-soft btn-lg">Ver demo</button>
+                </div>
+                <div class="d-flex gap-4 mt-4">
+                  <div>
+                    <div class="stat h3" data-target="240">0</div>
+                    <div class="muted small">Sensores</div>
+                  </div>
+                  <div>
+                    <div class="stat h3" data-target="10">0</div>
+                    <div class="muted small">Días batería</div>
+                  </div>
+                  <div>
+                    <div class="stat h3" data-target="80">0</div>
+                    <div class="muted small">Modos deportivos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <div class="watch-wrap">
+                <div id="carouselHero" class="carousel slide" data-bs-ride="carousel" style="max-width:100%;">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="watch" src="assets/images/smartwatch-1.avif" alt="FitCo Smartwatch 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-2.avif" alt="FitCo Smartwatch 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-3.avif" alt="FitCo Smartwatch 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-4.avif" alt="FitCo Smartwatch 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-5.avif" alt="FitCo Smartwatch 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-6.avif" alt="FitCo Smartwatch 6">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="watch" src="assets/images/smartwatch-7.avif" alt="FitCo Smartwatch 7">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators mt-3">
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="7"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features py-5">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-md-4">
+              <div class="card p-3 h-100">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                  <div>
+                    <div class="feature-title">Monitor Cardíaco PPG</div>
+                    <div class="muted small">Sensor óptico de 8 LED. Medición continua 24/7. Precisión clínica. Detección de arritmias automática.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card p-3 h-100">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="feature-icon" style="background:var(--accent)"><i class="fas fa-map-location-dot"></i></div>
+                  <div>
+                    <div class="feature-title">GPS/GNSS MultiBanda</div>
+                    <div class="muted small">GPS + GLONASS + Galileo + BeiDou. Precisión ±3m. Mapas offline. Navegación en tiempo real.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card p-3 h-100">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="feature-icon" style="background:var(--accent-2)"><i class="fas fa-bolt"></i></div>
+                  <div>
+                    <div class="feature-title">Batería 350mAh</div>
+                    <div class="muted small">10 días modo mixto. 5 días modo deportivo. 40 días reposo. Carga rápida 1 hora.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="py-4">
+        <div class="container">
+          <h3 class="mb-4">También puedes ver</h3>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="card p-2">
+                <img src="assets/images/smartwatch-1.avif" alt="Vista 1" class="img-fluid rounded">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card p-2">
+                <img src="assets/images/smartwatch-3.avif" alt="Vista 3" class="img-fluid rounded">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card p-2">
+                <img src="assets/images/smartwatch-5.avif" alt="Vista 5" class="img-fluid rounded">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card p-2">
+                <img src="assets/images/smartwatch-7.avif" alt="Vista 7" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="specs" class="py-5">
+        <div class="container">
+          <h3 class="mb-4">Especificaciones Técnicas</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <h5 class="mb-3"><i class="fas fa-microchip text-accent"></i> Hardware</h5>
+              <ul class="list-unstyled muted">
+                <li><strong>Procesador:</strong> Dual-core ARM, 1.2 GHz</li>
+                <li><strong>RAM:</strong> 512 MB LPDDR4</li>
+                <li><strong>Almacenamiento:</strong> 4 GB Flash</li>
+                <li><strong>Pantalla:</strong> AMOLED 1.3" 454x454 px</li>
+                <li><strong>Panel:</strong> Gorilla Glass 5</li>
+                <li><strong>Batería:</strong> 350 mAh LiPo (3.7V)</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h5 class="mb-3"><i class="fas fa-sliders text-accent-2"></i> Sensores</h5>
+              <ul class="list-unstyled muted">
+                <li><strong>Cardiaco:</strong> PPG 8 LED, ±2 bpm</li>
+                <li><strong>SpO2:</strong> Sensor óptico avanzado</li>
+                <li><strong>Acelerómetro:</strong> 3 ejes ±8g</li>
+                <li><strong>Giroscopio:</strong> 3 ejes ±500°/s</li>
+                <li><strong>GPS/GNSS:</strong> Quad-band</li>
+                <li><strong>Barométrico:</strong> Altitud/Presión</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h5 class="mb-3"><i class="fas fa-water text-accent"></i> Físico</h5>
+              <ul class="list-unstyled muted">
+                <li><strong>Dimensiones:</strong> 47 x 47 x 15.4 mm</li>
+                <li><strong>Peso:</strong> 52 g (sin correa)</li>
+                <li><strong>Material:</strong> Aleación de titanio</li>
+                <li><strong>Correas:</strong> Silicona/Nylon intercambiables</li>
+                <li><strong>Resistencia:</strong> 10 ATM / 100 m</li>
+                <li><strong>Colores:</strong> Negro, Azul, Naranja</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h5 class="mb-3"><i class="fas fa-wifi text-accent"></i> Conectividad</h5>
+              <ul class="list-unstyled muted">
+                <li><strong>Bluetooth:</strong> BLE 5.3</li>
+                <li><strong>WiFi:</strong> 802.11 a/b/g/n/ax</li>
+                <li><strong>NFC:</strong> Pagos sin contacto</li>
+                <li><strong>USB:</strong> Carga inalámbrica Qi</li>
+                <li><strong>SO:</strong> Android 8+ / iOS 14+</li>
+                <li><strong>Modos:</strong> 80+ deportes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="py-5" style="background:linear-gradient(135deg,rgba(0,114,206,0.05),rgba(255,122,0,0.05))">
+        <div class="container">
+          <h3 class="mb-4 text-center">Comentarios de Clientes</h3>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«Excelente precisión en GPS. Lo uso para trail running y no me ha decepcionado. Pantalla muy clara y batería dura mucho.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Carlos M.</div>
+                  <div class="muted small">Atleta profesional</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«Monitoreo cardíaco muy preciso. Me ayudó a detectar irregularidades. App intuitiva, diseño minimalista. Totalmente recomendado.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Patricia L.</div>
+                  <div class="muted small">Médica deportologa</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«La mejor relación precio-rendimiento. 10 días de batería es increíble. Resistencia al agua comprobada en piscina. Muy feliz con mi compra.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Jorge H.</div>
+                  <div class="muted small">Entrenador personal</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star-half-alt" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«Muy buen dispositivo. El GPS es preciso, la pantalla hermosa. Solo mejoraría la app con más personalizaciones de widgets.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Ana S.</div>
+                  <div class="muted small">Corredora de maratones</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«Reloj increíble. Construcción premium con titanio. He probado varios smartwatches y este es el mejor. Calidad y precio incomparables.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Miguel A.</div>
+                  <div class="muted small">Ciclista aventurero</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card p-4 h-100" style="border:1px solid #e5e7eb;border-radius:12px;">
+                <div class="d-flex gap-2 mb-2">
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                  <i class="fas fa-star" style="color:var(--accent-2);"></i>
+                </div>
+                <p class="mb-3" style="font-size:0.95rem;line-height:1.6;">«Perfecto para nadadores. Resistencia 10 ATM certificada. He nadado con él en piscina olímpica sin problemas. Recomendado 100%.»</p>
+                <div>
+                  <div style="font-weight:600;color:var(--text);">Sofia R.</div>
+                  <div class="muted small">Nadadora olímpica</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="buy" class="py-5">
+        <div class="container text-center">
+          <div class="card mx-auto p-4" style="max-width:720px;background:var(--card);border-radius:16px;">
+            <div class="row align-items-center">
+              <div class="col-md-8 text-start">
+                <h4 class="mb-1">FitCo Pro — Edición Lanzamiento</h4>
+                <p class="muted mb-2">Reloj deportivo inteligente profesional</p>
+                <div class="d-flex align-items-baseline gap-2 mb-2">
+                  <div class="fs-2" style="color:var(--accent-2);font-weight:800">$399</div>
+                  <div class="muted small text-decoration-line-through">$499</div>
+                  <span class="badge bg-danger">-20%</span>
+                </div>
+                <p class="small muted">Incluye: Reloj + 2 correas + Cable de carga + Estuche protector</p>
+              </div>
+              <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <button class="btn btn-accent btn-lg w-100">Comprar ahora</button>
+                <p class="text-center muted small mt-2">Envío gratis. 30 días devolución.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container text-center small muted">
+        <div class="mb-2">© 2026 Conesa — Derechos reservados</div>
+        <div>Política de privacidad • Términos</div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

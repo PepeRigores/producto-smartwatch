@@ -1,0 +1,52 @@
+/* Estilo: fondo claro y contornos suaves (referencia: páginas de producto como pccomponentes) */
+:root{
+  --bg:#f6f8fb;       /* fondo muy claro */
+  --card:#ffffff;     /* tarjetas blancas */
+  --muted:#6b7280;    /* gris texto */
+  --text:#0f1724;     /* texto principal oscuro */
+  --accent:#0072CE;   /* azul tipo tienda */
+  --accent-2:#FF7A00; /* naranja secundario */
+  --radius:10px;
+}
+html,body{height:100%;}
+body{
+  margin:0;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;
+}
+.site-header{background:transparent;padding:1rem 1.25rem}
+.brand{font-weight:700;color:var(--accent)}
+.hero{padding:4.5rem 0 3rem}
+.hero-card{background:var(--card);border:1px solid rgba(15,23,36,0.06);border-radius:var(--radius);padding:2rem;box-shadow:0 6px 20px rgba(15,23,36,0.05)}
+.hero-title{font-size:2rem;font-weight:700;color:var(--text);margin-bottom:.25rem}
+.hero-sub{color:var(--muted);margin-top:.25rem}
+.watch-wrap{display:flex;align-items:center;justify-content:center;width:100%;max-width:90%;margin:0 auto}
+.watch{width:100%;height:auto;max-width:100%;aspect-ratio:1;transition:transform .35s ease,box-shadow .35s ease;box-shadow:0 18px 40px rgba(15,23,36,0.06);border-radius:18px;object-fit:contain}
+.watch:hover{transform:translateY(-6px);box-shadow:0 28px 60px rgba(15,23,36,0.09)}
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+.features .card{background:var(--card);border:1px solid rgba(15,23,36,0.06);box-shadow:0 8px 24px rgba(15,23,36,0.04)}
+.feature-icon{width:56px;height:56px;border-radius:12px;display:inline-grid;place-items:center;color:var(--card);background:var(--accent-2)}
+.muted{color:var(--muted)}
+.btn-accent{background:var(--accent);border:0;color:#fff;font-weight:700}
+.btn-outline-soft{border:1px solid rgba(15,23,36,0.06);color:var(--muted);background:transparent}
+.stat{font-weight:700;color:var(--accent-2);font-family:Inter,monospace}
+footer{padding:3rem 0;color:var(--muted);background:transparent}
+
+/* Contorno suave para títulos (efecto de texto con borde leve) */
+.outline-soft{color:var(--text);text-shadow:0 1px 0 rgba(255,255,255,0.9), 0 1px 8px rgba(15,23,36,0.04);-webkit-text-stroke:0.2px rgba(15,23,36,0.06)}
+
+@media (max-width:767px){
+  .hero{padding:3rem 0}.hero-title{font-size:1.6rem}.watch-wrap{max-width:70%}
+}
+
+/* Carousel Hero Styles */
+#carouselHero .carousel-inner{border-radius:0;background:transparent;padding:0;box-shadow:none}
+#carouselHero .carousel-item{transition:opacity 0.6s ease-in-out}
+#carouselHero .carousel-control-prev,
+#carouselHero .carousel-control-next{width:auto;top:50%;transform:translateY(-50%);background:transparent;border:none}
+#carouselHero .carousel-control-prev-icon,
+#carouselHero .carousel-control-next-icon{filter:invert(1);opacity:0.4;transition:opacity 0.3s ease}
+#carouselHero .carousel-control-prev:hover .carousel-control-prev-icon,
+#carouselHero .carousel-control-next:hover .carousel-control-next-icon{opacity:0.7}
+#carouselHero .carousel-indicators{bottom:-45px}
+#carouselHero .carousel-indicators button{background-color:var(--accent-2);opacity:0.5;border-radius:50%;width:8px;height:8px;transition:opacity 0.3s ease}
+#carouselHero .carousel-indicators button.active{opacity:1}
